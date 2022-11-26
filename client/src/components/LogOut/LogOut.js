@@ -12,6 +12,7 @@ const LogOut = () => {
         onClick={() => {
           cookie.remove("token_chat_user");
           navigate("/");
+          window.location.reload("/");
         }}
         style={{
           color: "red",
