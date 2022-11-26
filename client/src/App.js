@@ -6,7 +6,7 @@ import Game from "./pages/Game";
 import Register from "./pages/Register";
 import { PrivateRoute } from "./components/ProtectedRoute/ProtectedRoute";
 import Cookies from "universal-cookie";
-const socket = io.connect("http://localhost:5000");
+const socket = io.connect("https://tic-tac-toe-game-7.herokuapp.com");
 
 const App = () => {
   const [roomCode, setRoomCode] = useState("");
