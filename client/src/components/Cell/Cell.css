@@ -1,0 +1,22 @@
+.cell {
+  background: #232323;
+  width: 100px;
+  height: 100px;
+  color: black;
+  border: 15px solid rgb(0, 0, 0);
+  display: grid;
+  place-content: center;
+  border-radius: 25px;
+}
+
+.cell:hover {
+  cursor: pointer;
+  /* background-color: aliceblue; */
+}
+/* 
+@media (max-width: 700px) {
+  .cell {
+    height: 100px;
+    width: 100px;
+  }
+} */
